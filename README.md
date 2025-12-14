@@ -8,7 +8,8 @@
 
 ### 🔗 Play Live
 
-[**Click Here to Start Solving the Cube!**](LINK/TO/YOUR/LIVE/DEMO)
+[**Click Here to Start Solving the Cube!**]
+**https://manthansahu20.github.io/Rubik-s-Cube/**
 
 ---
 
@@ -41,47 +42,3 @@ You can get it running instantly:
 ---
 ---
 
-## 📚 Option 2: The Detail-Oriented and Teaching-Focused README
-
-This format is excellent for projects where you want to explain the technology, design choices, and complexity of the implementation.
-
-```markdown
-# 🌟 Project: Rubik's Cube 3D Simulator
-
-> This is more than just a game; it's a deep dive into Cube Logic, 3D CSS Transforms, and efficient DOM manipulation.
-
-## 🔗 Live Demo & Screenshots
-
-* **Live Link:** [**Start Solving Your Puzzle Now!**](LINK/TO/YOUR/LIVE/DEMO)
-* **Image:** `![Full Game Screenshot](LINK/TO/SCREENSHOT.png)`
-
----
-
-## ⚙️ Technology and Architecture
-
-This project is intentionally built on vanilla technologies, avoiding any heavy libraries or frameworks to showcase core web development skills.
-
-| Stack | Why It Was Used |
-| :--- | :--- |
-| **HTML5** | To define the rigid DOM structure of the game (6 faces, 9 stickers each). |
-| **CSS 3D** | For rendering the cube in 3D space using `transform: rotateX/Y/Z` and setting the necessary perspective. |
-| **JavaScript** | **(Core Logic):** To manage the cube's state, handle the complex twisting logic (i.e., which stickers move where when a face turns), and manage all UI interactions (mouse/touch events). |
-
-## 🧠 Cube Logic: Under the Hood
-
-Here is the essential challenge in rotating the cube:
-
-1.  **DOM Structure:** Each face with its 9 stickers is modeled as a `div`.
-2.  **Twisting Challenge:** When a face twists, we must update not only the **9 stickers** on that face but also the **edge stickers** of the 4 adjacent faces that are affected. This is all managed through a **State Array** in JavaScript.
-
-## 🚀 Local Installation
-
-If you wish to inspect the source code:
-
-```bash
-# 1. Get the repository
-git clone [Your GitHub Repo URL]
-cd rubiks-cube-game
-
-# 2. Open in any modern browser
-open index.html
